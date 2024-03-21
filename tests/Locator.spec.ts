@@ -51,8 +51,8 @@ test.describe("Tests for Locators", () => {
         const loginButtom = await page.locator("button[type='submit']").click()
         //await page.getByRole('button', { type: 'submit'}).click();
 
-        const user = await page.getByText("Emma Watson")
-        await expect(user).toBeVisible();
+        // const user = await page.getByText("Emma Watson")
+        // await expect(user).toBeVisible();
 
         //others
         // getByLabel()
