@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only("Click on multiple check box and assert the fields", async ({page})=>{
+test("Click on multiple check box and assert the fields", async ({page})=>{
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     const userName = await page.getByPlaceholder("Username")
     await userName.fill("Admin");
