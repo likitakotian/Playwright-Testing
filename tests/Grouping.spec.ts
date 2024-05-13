@@ -33,3 +33,27 @@ test.describe('grouping tests 2', ()=>{
     console.log("test7");
  })
 })
+
+function lengthOfLongestSubstring(s: string): number {
+   let longest:any = '';
+   for( let i=0; i<s.length;i++){
+    for( let j=i+1; j<=s.length;j++){
+      const subString = s.substring(i,j);
+       let test = isrepitative(subString);
+       if(test.size > longest.length){
+          longest = test;
+       }
+    }
+  }
+   return longest.length;
+   }
+  function isrepitative(input:string):Set<string> {
+      const charSet= new Set<string>();
+      for(let i=0;i<input.length;i++){
+          if(charSet.has(input[i])){
+              break;
+          }
+          charSet.add(input[i]);
+      }
+      return charSet;
+  }
