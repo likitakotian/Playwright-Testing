@@ -49,6 +49,7 @@ test.describe("Tests for Locators", () => {
         const password = await page.getByPlaceholder("Password").fill("admin123");//usually on input text
 
         const loginButtom = await page.locator("button[type='submit']").click()
+       
         //await page.getByRole('button', { type: 'submit'}).click();
 
         // const user = await page.getByText("Emma Watson")
@@ -59,4 +60,5 @@ test.describe("Tests for Locators", () => {
         // getByTitle()
         // getByTestId()
     })
+
 })

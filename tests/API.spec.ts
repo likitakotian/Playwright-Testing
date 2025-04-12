@@ -13,7 +13,8 @@ test.describe.serial("api testing", async () => {
             {
                 data: { "name": "morpheus123", "job": "leader" },
                 headers: { "accept": "application/json" }
-            });
+            })
+            
         console.log(await response.json()); //return resposne as json
         expect(await response.status()).toBe(201)
         let res = await response.json();

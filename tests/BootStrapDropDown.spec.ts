@@ -18,4 +18,6 @@ test('BootStrap dropDown', async ({ page }) => {
         }
     }
     await page.waitForTimeout(500);
+   
+
 })

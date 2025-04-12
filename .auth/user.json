@@ -1,0 +1,109 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.612383513.1744394022",
+      "domain": ".geeksforgeeks.org",
+      "path": "/",
+      "expires": 1778954025.596634,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gfg_theme",
+      "value": "gfgThemeLight",
+      "domain": ".geeksforgeeks.org",
+      "path": "/",
+      "expires": 1778954025.673133,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.2139286888.1744394023",
+      "domain": ".geeksforgeeks.org",
+      "path": "/",
+      "expires": 1752170023,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUluFfdDI65vVmFaULYyazR1QrzIMdr_EJ_QpiFmztxJdyz_rkDdK1MmVJf1",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1778954022.820889,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "gfg_nluid",
+      "value": "967d72a6cfd830c020fd1cd8020aec65",
+      "domain": ".geeksforgeeks.org",
+      "path": "/",
+      "expires": 1775949823.454433,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gfguserName",
+      "value": "tihij4nbhk%2FeyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5nZWVrc2ZvcmdlZWtzLm9yZy8iLCJpYXQiOjE3NDQzOTQwMjQsImV4cCI6MTc1MjE3MDAyNCwiaGFuZGxlIjoidGloaWo0bmJoayIsInV1aWQiOiJkOWNkMTRkOWI3MWJkNGJjYzc3ODFmYWZhZTg1OWVjYyIsIm5hbWUiOiIiLCJwcm9maWxlVXJsIjoiaHR0cHM6Ly9tZWRpYS5nZWVrc2ZvcmdlZWtzLm9yZy9pbWctcHJhY3RpY2UvdXNlcl93ZWItMTU5ODQzMzIyOC5zdmciLCJpbnN0aXR1dGVJZCI6MCwiaW5zdGl0dXRlTmFtZSI6IiIsImlzSW50ZXJlc3RTZWxlY3RlZCI6ZmFsc2UsInB1aWQiOiJ1VzZOVE53eTFpND0iLCJhaWQiOiIzZ21lVGRvdzJDclJmSnc9IiwicGEiOjF9.mjfhYQfKMfbi5-aflyQ6oUq3u3T5oDPvN4eQzEfw-4wDk30tirXaTitCENCqfT5jCGBFRBw2BcrCg9C441k_h9yPncX2y_Lfj0GjDD7DeWrnIawAB86c2gU_mmH15guTxEFOnOplGZQz70ZjQ1swULJH56o972pSR7CxowhMAeQhouyGgwNQlQ7LJlQ5IVD_L-fxe7MqFpyYvAilzPzlyNF_vdPP8dWzb9P9qUHqAFyHFtod_o_AlS9yUgFTAPb76J9OeqRii_c5zWjcOPWNJHFJr5m61Nejo3QBmUTEy4KghunVkOXUKDA5NW03MQw2vYmwBQmrilgMFGZnRUdNjQ",
+      "domain": ".geeksforgeeks.org",
+      "path": "/",
+      "expires": 1752170024.416047,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gfg_e",
+      "value": "a81742b04a061cbd3c87de9c9f492e932382075394531609967ed868d69263f0",
+      "domain": ".geeksforgeeks.org",
+      "path": "/",
+      "expires": 1775930024.416466,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gfg_p",
+      "value": "TRUE",
+      "domain": ".geeksforgeeks.org",
+      "path": "/",
+      "expires": 1775930024.416527,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_DWCCJLKX3X",
+      "value": "GS1.1.1744394022.1.1.1744394025.57.0.0",
+      "domain": ".geeksforgeeks.org",
+      "path": "/",
+      "expires": 1778954025.596486,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.geeksforgeeks.org",
+      "localStorage": [
+        {
+          "name": "theme-mode",
+          "value": "false"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"creationTimeMs\":1744394022547},\"expires\":1752170022547}}"
+        }
+      ]
+    }
+  ]
+}
