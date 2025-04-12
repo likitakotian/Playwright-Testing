@@ -1,0 +1,20 @@
+version: 2.1
+
+jobs:
+  test:
+    docker:
+      - image: cimg/node:14.17.0  # Node.js Docker image
+    steps:
+      - checkout  # Checkout the repository code
+      - run:
+          name: Install dependencies
+          command: npm install  # Install necessary dependencies
+      - run:
+          name: Run Playwright tests
+          command: npx playwright test --workers=4  # Run Playwright tests with 4 workers
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
