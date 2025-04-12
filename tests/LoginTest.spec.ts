@@ -12,7 +12,7 @@ test.use({
     storageState: '.auth/user.json',
 })
 
-test.only("login test to use auth session", async({page})=>{
+test("login test to use auth session", async({page})=>{
 
     await page.goto("https://www.geeksforgeeks.org/");
     await expect(page).toHaveTitle('GeeksforGeeks | A computer science portal for geeks')
