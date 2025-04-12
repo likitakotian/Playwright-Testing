@@ -3,7 +3,7 @@ import { chromium, Page } from "playwright";
 module.exports = async () => {
   await login();
   async function login(){
-    const browser = await chromium.launch({ headless: false }); // Show the browser
+  const browser = await chromium.launch({ headless: true }); // Show the browser
   const context = await browser.newContext();
   const page = await context.newPage();
 
